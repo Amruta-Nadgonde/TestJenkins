@@ -22,4 +22,12 @@ public class AppTest {
 	  int act = App.sub(18, 8);
 	  assertEquals(act, exp);
   }
+  
+  @Test
+  public void mulTest() {
+	  
+	  int exp = 10;
+	  int act = App.sub(5, 2);
+	  assertEquals(act, exp);
+  }
 }
